@@ -7,7 +7,7 @@
     "okaeri"
   ],
   "repository": "https://github.com/Wahyu213/Okaeri-File",
-  "logo": "https://telegra.ph/file/9b2481f3793c5ddcdf380.jpg",
+  "logo": "https://telegra.ph/file/4841c48a092ebe7b87705.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
