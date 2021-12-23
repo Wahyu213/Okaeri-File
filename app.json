@@ -1,0 +1,86 @@
+{
+  "name": "Okaeri File",
+  "description": "BOT Multi Force Subs File Sharing Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
+  "keywords": [
+    "telegram",
+    "file",
+    "okaeri"
+  ],
+  "repository": "https://github.com/Wahyu213/Okaeri-File",
+  "logo": "https://telegra.ph/file/9b2481f3793c5ddcdf380.jpg",
+  "env": {
+    "TG_BOT_TOKEN": {
+      "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
+      "value": ""
+    },
+    "OWNER": {
+      "description": "Masukan Username Telegram untuk Owner BOT [ Jangan Pake @ ]",
+      "value": "mrismanaziz"
+    },
+    "OWNER_ID": {
+      "description": "Masukan User ID Telegram untuk Owner BOT",
+      "value": "1938466384"
+    },
+    "ADMINS": {
+      "description": "Masukan User ID untuk mendapatkan hak Admin BOT [Hanya dapat membuat link]",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "Dapatkan APP ID di web my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Dapatkan API HASH di web my.telegram.org",
+      "value": ""
+    },
+    "CHANNEL_ID": {
+      "description": "Masukan ID Channel Untuk [Channel Database]",
+      "value": "-100"
+    },
+    "FORCE_SUB_CHANNEL": {
+      "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
+      "value": "-100"
+    },
+    "FORCE_SUB_GROUP": {
+      "description": "Masukan ID dari Group Untuk Wajib Subscribenya",
+      "value": "-100"
+    },
+    "START_MESSAGE": {
+      "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
+      "value": "<b>Hello {first}\n\nSaya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>"
+    },
+    "FORCE_SUB_MESSAGE": {
+      "description": "Pesan Paksa Subscribe bot, Gunakan Format parsemode HTML",
+      "value": "<b>Hello {first}\n\nAnda harus bergabung di Channel/Grup saya untuk menggunakan saya\n\nSilakan Join Ke Channel Terlebih Dahulu</b>"
+    },
+    "CHANNEL":{
+      "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
+      "value": "nbzoning",
+      "required": false
+    },
+    "GROUP":{
+      "description": "Masukan Username dari Group anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
+      "value": "OkaeriUserbot",
+      "required": false
+    }
+  },
+  "addons": [
+    {
+    "plan": "heroku-postgresql",
+      "options": {
+        "version": "12"
+      }
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  }
+}
