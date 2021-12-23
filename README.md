@@ -1,8 +1,11 @@
-# Okaeri-File
+<h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">KYY-USERBOT<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
 
-Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link Khusus.
+![photo_2021-12-23_09-00-52](https://user-images.githubusercontent.com/91831925/147176351-c06cb167-87b2-4bad-956e-ea3ea38863f2.jpg)
+
 
 ##
+
+Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link Khusus.
 
 **Jika Anda memerlukan tambahan module lagi dalam repo atau Jika Anda menemukan bug, silahkan report di group [@OkaeriUserbot](https://www.telegram.dog/OkaeriUserbot)**
 
