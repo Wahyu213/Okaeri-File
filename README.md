@@ -26,6 +26,10 @@ Bot Telegram untuk menyimpan Posting atau File yang dapat Diakses melalui Link K
 #### Deploy on Heroku
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Wahyu213/Okaeri-File)</br>
 
+**Tonton Video Tutorial Ini di YouTube untuk Bantuan memasang di Heroku**<br>
+<a href="https://youtu.be/LCrkRTMkmzE">
+  <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147">
+</a><br>
 
 
 ### Admin Commands
