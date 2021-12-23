@@ -1,6 +1,8 @@
 <h1 align="center"><img src="./resources/extras/GeezFire.gif" width="35px">KYY-USERBOT<img src="./resources/extras/GeezFire.gif" width="35px"></h1>
 
-![photo_2021-12-23_09-00-52](https://user-images.githubusercontent.com/91831925/147176351-c06cb167-87b2-4bad-956e-ea3ea38863f2.jpg)
+<p align="center">
+  <img src="https://telegra.ph/file/1070d9afe04096359f68b.jpg">
+</p>
 
 
 ##
